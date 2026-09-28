@@ -76,10 +76,10 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onRequestPilot }
             <div className="pt-8">
               <button
                 onClick={() => onRequestPilot('Gatehouse (£39/site/mo)')}
-                className="w-full py-3.5 px-4 rounded-xl font-semibold text-sm text-white bg-white/5 hover:bg-white/10 border border-white/15 hover:border-emerald-400 transition-all duration-200 flex items-center justify-center gap-2"
+                className="w-full py-4 px-4 rounded-xl font-bold text-sm text-slate-950 bg-emerald-400 hover:bg-emerald-300 shadow-glow hover:shadow-glow-lg transition-all duration-200 flex items-center justify-center gap-2"
               >
                 <span>Request a Pilot</span>
-                <ArrowRight className="w-4 h-4 text-emerald-400" />
+                <ArrowRight className="w-4 h-4" />
               </button>
             </div>
           </div>
@@ -187,10 +187,10 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onRequestPilot }
             <div className="pt-8">
               <button
                 onClick={() => onRequestPilot('Principal (£149/site/mo)')}
-                className="w-full py-3.5 px-4 rounded-xl font-semibold text-sm text-white bg-white/5 hover:bg-white/10 border border-white/15 hover:border-cyan-400 transition-all duration-200 flex items-center justify-center gap-2"
+                className="w-full py-4 px-4 rounded-xl font-bold text-sm text-slate-950 bg-emerald-400 hover:bg-emerald-300 shadow-glow hover:shadow-glow-lg transition-all duration-200 flex items-center justify-center gap-2"
               >
                 <span>Request a Pilot</span>
-                <ArrowRight className="w-4 h-4 text-cyan-400" />
+                <ArrowRight className="w-4 h-4" />
               </button>
             </div>
           </div>
