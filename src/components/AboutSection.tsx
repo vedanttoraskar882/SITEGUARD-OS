@@ -114,18 +114,13 @@ export const AboutSection: React.FC = () => {
             
             {/* Top founder header */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-8 border-b border-white/10">
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-400 to-emerald-800 flex items-center justify-center text-slate-950 font-extrabold text-2xl shadow-glow">
-                  AA
+              <div>
+                <div className="inline-flex items-center gap-2 text-xs font-mono text-emerald-400 font-semibold mb-1.5">
+                  <Award className="w-3.5 h-3.5" />
+                  LEADERSHIP
                 </div>
-                <div>
-                  <div className="inline-flex items-center gap-2 text-xs font-mono text-emerald-400 font-semibold mb-1">
-                    <Award className="w-3.5 h-3.5" />
-                    LEADERSHIP
-                  </div>
-                  <h3 className="text-2xl sm:text-3xl font-bold text-white">Ather Amin</h3>
-                  <p className="text-sm font-medium text-emerald-400">Founder &amp; Managing Director</p>
-                </div>
+                <h3 className="text-2xl sm:text-3xl font-bold text-white">Ather Amin</h3>
+                <p className="text-sm font-medium text-emerald-400">Founder &amp; Managing Director</p>
               </div>
 
               <div className="text-left sm:text-right">
